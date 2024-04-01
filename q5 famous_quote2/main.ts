@@ -2,6 +2,7 @@
 // variable called famous_person. Then compose your message and store it in a new variable
 // called message. Print your message.
 
-let famous_person ="Albert Einstein"
-let message = "A person who never made a mistake never tried anything new." 
-console.log(`${famous_person} once said, "${message}"`);
+let famous_person :string ="Albert Einstein";
+let quote :string= "A person who never made a mistake never tried anything new." ;
+let message : string = `${famous_person} once said "${quote}"`;
+console.log(message);
